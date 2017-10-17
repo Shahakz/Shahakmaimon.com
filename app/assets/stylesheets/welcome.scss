@@ -252,27 +252,23 @@ nav{
       height: 25vw;
       border-radius: 50%;
       box-shadow: 0px 0px 30px rgba(0,0,0,0.1);
-      margin-right: 30px;
+      margin-right: 2vw;
       font-size: 20px;
     }
     .project:nth-child(1){
       background-image: url("https://images.pexels.com/photos/247768/pexels-photo-247768.jpeg?w=940&h=650&dpr=2&auto=compress&cs=tinysrgb");
       background-size: 160%;
       background-repeat: no-repeat;
-
       position: relative;
 
-      -webkit-transition: all .7s ease;
       @include hover-projects("ENGINE");
     }
     .project:nth-child(2){
       background-image: url("http://ak3.picdn.net/shutterstock/videos/12019793/thumb/4.jpg");
       background-size: 180%;
       background-repeat: no-repeat;
-
       position: relative;
 
-      -webkit-transition: all .7s ease;
       @include hover-projects("CONSOLE GAME");
     }
 
@@ -284,7 +280,6 @@ nav{
       position: relative;
       margin-right: 0px;
 
-      -webkit-transition: all .7s ease;
       @include hover-projects("MATH TEACHER");
     }
 
