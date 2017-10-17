@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,600,700');
 @import "https://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700";
+@import "font-awesome";
 
 // Variables
 $bg-body: #f9f9f9;
@@ -105,13 +106,13 @@ nav{
   }
 
   #ul-nav-right{
+    margin-top: 8px;
     float: right;
     li{
       background-color: rgba(0,0,0,0.2);
       padding: 8px 15px 5px 15px;
       margin: 0px 10px;
       border-radius: 15px;
-      vertical-align: bottom;
       a{
         color: white;
       }
@@ -207,9 +208,9 @@ nav{
       background-color: rgba(0,0,0,0.2);
 
       font-weight: bolder;
-      font-size: 15px;
+      font-size: 25px;
       border-radius: 15px;
-      padding: 12px 15px 10px 15px;
+      padding: 15px 20px 13px 20px;
       color: white;
 
         &:hover{
@@ -317,6 +318,20 @@ nav{
 		width: 100%;
 	}
 
+  i{
+    font-size: 25px !important;
+    color: white;
+    position: absolute;
+    top:50%; right:0; bottom:0; left:25%;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+  }
+
+  .fa-graduation-cap{
+    left: 20%;
+  }
+
 	.timeline-item {
 		margin-bottom: 50px;
 		position: relative;
@@ -329,7 +344,7 @@ nav{
       font-size: 1.3vw;
       color: $timeline-color;
       h1{
-        text-shadow: 0px !important;
+        font-weight: 100;
       }
     }
     .year-left{
@@ -339,7 +354,7 @@ nav{
       font-size: 1.3vw;
       color: $timeline-color;
       h1{
-        text-shadow: 0px !important;
+        font-weight: 100;
       }
     }
 
